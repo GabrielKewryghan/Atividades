@@ -16,6 +16,7 @@
         <li class="<?= $active["cachorros"] ?? ""?>"><a href="/canilsenai/cachorros">Cachorros</a></li>
         <li class="<?= $active["gatos"] ?? ""?>"><a href="/canilsenai/gatos">Gatos</a></li>
         <li class="<?= $active["peixes"] ?? ""?>"><a href="/canilsenai/peixes">Peixes</a></li>
+        <li class="<?= $active["passaros"] ?? ""?>"><a href="/canilsenai/passaros">Passaros</a></li>
     </ul>
 </nav>
 <?php if(parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH) != "/canilsenai/pesquisa"): ?>

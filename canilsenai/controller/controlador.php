@@ -5,6 +5,7 @@ $active =[
     "cachorros" => "",
     "gatos" => "",
     "peixes" => "",
+    "passaros" => "",
 ];
 
 function mainPage(){
@@ -45,6 +46,18 @@ function peixesPage(){
     $title = "Peixes";
         $content = array_filter($items, function($animal){
         return $animal['type'] == "peixe";
+    });
+
+    include "./include/layout.php";
+}
+
+function passarosPage(){
+    global $items, $active;
+    $active["passaros"] = "active";
+    $banner = "./images/banner_bird.png";
+    $title = "passaros";
+        $content = array_filter($items, function($animal){
+        return $animal['type'] == "passaro";
     });
 
     include "./include/layout.php";

@@ -119,6 +119,55 @@ $items = [
         'color' => 'preto',
         'genre' => 'masculino',
         'type'  => 'peixe'
+    ],
+    [
+        'image' => 'images/Alma_de_gato.png',
+        'name'  => 'Alma de Gato',
+        'color' => 'marrom',
+        'genre' => 'masculino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/Arara_vermelha.png',
+        'name'  => 'Arara Vermelha',
+        'color' => 'vermelho e azul',
+        'genre' => 'masculino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/Cacatua.png',
+        'name'  => 'Cacatua',
+        'color' => 'branco',
+        'genre' => 'feminino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/Canário-da-terra.jpg',
+        'name'  => 'Canário da Terra',
+        'color' => 'amarelo',
+        'genre' => 'masculino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/currupiao.png',
+        'name'  => 'Currupião',
+        'color' => 'preto e laranja',
+        'genre' => 'masculino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/Encontro.jpeg',
+        'name'  => 'Encontro',
+        'color' => 'preto e amarelo',
+        'genre' => 'masculino',
+        'type'  => 'passaro'
+    ],
+    [
+        'image' => 'images/Galo_de_campina.jpg',
+        'name'  => 'Galo de Campina',
+        'color' => 'branco e vermelho',
+        'genre' => 'feminino',
+        'type'  => 'passaro'
     ]
 ];
 

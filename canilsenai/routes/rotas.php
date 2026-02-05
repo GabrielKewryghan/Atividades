@@ -23,6 +23,11 @@ else if ($URL == "/canilsenai/peixes"){
     
 }
 
+else if ($URL == "/canilsenai/passaros"){
+    passarosPage();
+    
+}
+
 else if ($URL == "/canilsenai/pesquisa"){
     pesquisaPage();
 }
